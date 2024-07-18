@@ -16,7 +16,7 @@ function Home() {
   }, [watchlist]);
 
   const searchMovies = async () => {
-    const res = await axios.get(`http://www.omdbapi.com/?s=${query}&apikey=2135c223`);
+    const res = await axios.get(`https://www.omdbapi.com/?s=${query}&apikey=2135c223`);
     setMovies(res.data.Search);
   };
 
