@@ -1,53 +1,42 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-  const location= useLocation();
   const user = localStorage.getItem('user');
 
   const handleLogout = () => {
     localStorage.removeItem('user');
     window.location.href = '/login';
   };
-  const navStyle = {
-    color: location.pathname === '/watchlist'
-      ? 'orangered'
-      : 'black',
-  };
-  const mavStyle = {
-    color: location.pathname === '/'
-      ? 'orangered'
-      : 'black',
-  };
-
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column" style={{ height: '100vh', position: 'fixed' }}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-      
-        <div className="collapse navbar-collapse show" id="navbarSupportedContent">
-          <ul className="navbar-nav flex-column">
+        <Link className="navbar-brand" to="/movie/:id">Movie</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-            <Link className="navbar-brand" to="/">MovieHub</Link><hr />
+              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/" style={mavStyle}>Movies</Link>
-            </li>
-            <li className="nav-item">
-              {user ? (
-                <Link className="nav-link" to="/watchlist" style={navStyle}>Watchlist</Link>
-              ) : (
-                <Link className="nav-link" to="/login">Login</Link>
-              )}
-            </li>
-            <li className="nav-item">
-              {user ? (
-                <button className="btn btn-outline-danger" onClick={handleLogout}>Logout</button>
-              ) : (
-                <Link className="nav-link" to="/signup">Signup</Link>
-              )}
-            </li>
+            
+           
+           
           </ul>
+         
+          {user ? (
+            <>
+              <Link className="nav-link" to="/watchlist">Watchlist</Link>
+              <button className="btn btn-outline-danger" onClick={handleLogout}>Logout</button>
+            </>
+          ) : (
+            <>
+              <Link className="nav-link" to="/login">Login</Link>
+             
+            </>
+          )}
         </div>
       </div>
     </nav>
