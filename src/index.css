@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* src/index.css or any global CSS file */
+.navbar {
+  width: 250px; /* Adjust the width as needed */
+  border-right: 1px solid #ddd; /* Optional border for separation */
+}
+
+.nav-link {
+  padding: 10px 20px; /* Adjust the padding for better spacing */
+}
+
+.container-fluid {
+  padding: 0; /* Remove default padding */
+}
+
+body {
+  margin-left: 250px; /* Adjust the margin to account for the navbar width */
+}
+/* src/index.css */
+.main-content {
+  margin-left: 250px; /* Same width as the navbar */
+  padding: 20px; /* Optional padding */
+}
+/* src/index.css or any global CSS file */
+.navbar {
+  width: 250px; /* Adjust the width as needed */
+  border-right: 1px solid #ddd; /* Optional border for separation */
+  padding: 15px 0;
+}
+
+.nav-link, .btn {
+  margin-bottom: 10px; /* Add margin between items for spacing */
+}
+
+body {
+  margin-left: 250px; /* Adjust the margin to account for the navbar width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.main-content {
+  padding: 20px; /* Optional padding */
+}
+
