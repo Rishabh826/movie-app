@@ -31,7 +31,7 @@ function Home() {
 
   return (
     
-      <div className="container">
+      <div className="container" style={{marginTop:'2rem'}}>
         <div className="subcontainer" style={{ borderRadius: '50px', border: '6px solid orangered', padding: '30px', marginBottom: '30px' }}>
           <h1 style={{ color: 'orangered' }}>Welcome to movies</h1>
           <p>Explore thousands of movies, get personalized recommendations, create your watchlist, stay updated with the latest news, trailers, and releases, and join a vibrant community of movie enthusiasts. Start your cinematic journey today!</p>
