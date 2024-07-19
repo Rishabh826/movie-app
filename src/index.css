@@ -12,4 +12,14 @@ code {
     monospace;
 }
 /* src/index.css or any global CSS file */
-
+#image{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border:  2px soloid white;
+  transition: all ease-out 1s;
+}
+#image img:hover{
+  width: 100%;
+}

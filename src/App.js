@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Watchlist from './pages/Watchlist';
 import MovieDetails from './pages/MovieDetails';
 import Navbar from './components/Navbar';
+import Start from './components/Start';
 import './index.css';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Navbar />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Start/>} />
+          <Route path="/home" element={<Home/>} />
           <Route path="/login" element={<Login/>} />
           
           <Route path="/watchlist" element={<Watchlist/>} />
