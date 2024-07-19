@@ -30,7 +30,7 @@ function Home() {
   };
 
   return (
-    <>
+    
       <div className="container">
         <div className="subcontainer" style={{ borderRadius: '50px', border: '6px solid orangered', padding: '30px', marginBottom: '30px' }}>
           <h1 style={{ color: 'orangered' }}>Welcome to movies</h1>
@@ -64,7 +64,7 @@ function Home() {
           ))}
         </div>
       </div>
-    </>
+    
   );
 }
 
