@@ -26,13 +26,14 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/home"><strong>Home</strong></Link>
+              <Link className="nav-link active" aria-current="page" to="/home"><strong>Movies</strong></Link>
             </li>
             
           </ul>
           {user ? (
             <>
               <Link className="nav-link" to="/watchlist"> <strong>Watchlist</strong></Link>
+              <Link className="nav-link" to="/user"> <strong>User</strong></Link>
               <button className="btn btn-outline-danger" onClick={handleLogout}>Logout</button>
             </>
           ) : (

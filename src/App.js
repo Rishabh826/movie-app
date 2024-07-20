@@ -9,6 +9,7 @@ import MovieDetails from './pages/MovieDetails';
 import Navbar from './components/Navbar';
 import Start from './components/Start';
 import './index.css';
+import User from './components/User';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Start/>} />
           <Route path="/home" element={<Home/>} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/user" element={<User/>} />
           
           <Route path="/watchlist" element={<Watchlist/>} />
           <Route path="/movie/:id" element={<MovieDetails/>} />

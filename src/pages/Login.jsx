@@ -23,7 +23,7 @@ export default class Login extends Component {
               
               <form onSubmit={this.handleLogin}>
                 <div className="form-group mx-3" >
-                  <input type="text" name="email" className="form-control login-input" style={{ backgroundColor: 'transparent',color:'white', borderTop: '1px', borderRight: '1px', borderLeft: '1px' }} placeholder="Username or e-mail" />
+                  <input type="email" name="email" className="form-control login-input" style={{ backgroundColor: 'transparent',color:'white', borderTop: '1px', borderRight: '1px', borderLeft: '1px' }} placeholder="Username or e-mail" />
                 </div>
                 <div className="form-group mx-3 my-3">
                   <input type="password" name="password" style={{ backgroundColor: 'transparent', borderTop: '1px', borderRight: '1px', borderLeft: '1px' }} className="form-control login-input" placeholder="Password" />
