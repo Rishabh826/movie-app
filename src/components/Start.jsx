@@ -4,10 +4,15 @@ import '../index.css';
 export default function Start() {
   return (
     <div className="d-flex flex-column bd-highlight mb-3">
-      <div className="subcontainer" style={{ backgroundImage: 'url(https://media.istockphoto.com/id/1542598409/photo/movie-podium-background-with-movie-objects-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=VUwlXnJCjj7A811-dxcwhb9gZ-yp48ymZ2Jmm4lOlto=)', height: '20rem' }}>
+      <div className="subcontainer" style={{ backgroundImage: 'url(https://asset.fujifilm.com/www/us/files/styles/1120x400/public/2020-08/5197d9ed172a928c16214c0abf0e0484/FUJIFILM-USA-digital-cameras-banner-X-series.jpg?itok=vADq7VUq)', height: '20rem' }}>
         <h1 style={{ color: 'white', textAlign: 'center', paddingTop: '15rem', fontSize: '4rem' }}>Welcome to the movieHub</h1>
       </div>
+      <div className="d-flex justify-content-center align-items-center" style={{marginTop:'2rem'}}>
+      <h1 style={{borderBottom:'2px solid black'}}>New Realeased of the week</h1>
+      </div>
+    
       <div className="d-flex justify-content-center align-items-center" style={{ height: '90vh' }}>
+        
         <div className="card">
           <div className="card-inner">
             <div className="card-front">
@@ -19,6 +24,23 @@ export default function Start() {
           </div>
         </div>
       </div>
+
+
+      <div class="imgcontainer">
+  <div class="upload-container">
+    <div class="image-upload">
+    
+    
+      <img src="https://cdn.dribbble.com/users/3020031/screenshots/16371150/media/4955ea9d1ac975a0c89648492d5c36b7.png?resize=400x300&vertical=center"  />
+    </div>
+    <div class="text-content">
+     
+    </div>
+  </div>
+</div>
+
+
+
       <div className="d-flex justify-content-center align-items-center" style={{ height: '90vh' }}>
 
       <div class="about">
