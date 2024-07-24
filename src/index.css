@@ -267,7 +267,8 @@ code {
 
 
  .imgcontainer {
-  padding: 20px;
+  padding: 30px;
+  background-color: #1a1a1a;
 }
 
 .upload-container {
@@ -287,7 +288,7 @@ code {
 
 .uploaded-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -304,4 +305,48 @@ code {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+/* hover cards*/
+
+.hovercard {
+  width: 510px;
+  height: 454px;
+  border-radius: 4px;
+  background: #212121;
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+}
+
+.hovercard p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: #212121;
+  border: 1px solid #ff5a91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hovercard p:hover {
+  flex: 4;
+}
+
+.hovercard p span {
+  min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #ff568e;
+  letter-spacing: .1em;
+}
+
+.hovercard p:hover span {
+  transform: rotate(0);
 }

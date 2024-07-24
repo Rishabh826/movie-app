@@ -8,7 +8,7 @@ export default function Start() {
         <h1 style={{ color: 'white', textAlign: 'center', paddingTop: '15rem', fontSize: '4rem' }}>Welcome to the movieHub</h1>
       </div>
       <div className="d-flex justify-content-center align-items-center" style={{marginTop:'2rem'}}>
-      <h1 style={{borderBottom:'2px solid black'}}>New Realeased of the week</h1>
+      <h1 style={{borderBottom:'2px solid black',fontFamily:'fantasy'}}>New Realeased of the week</h1>
       </div>
     
       <div className="d-flex justify-content-center align-items-center" style={{ height: '90vh' }}>
@@ -26,18 +26,50 @@ export default function Start() {
       </div>
 
 
-      <div class="imgcontainer">
+   <div>
+   <img src="https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg"  />
+   <img src="https://as2.ftcdn.net/v2/jpg/03/27/89/21/1000_F_327892164_bVbtSUgzGYnSiApo6NMmR8LdT7XZvcwM.jpg"  style={{marginTop:'2rem'}} />
+   </div>
+
+      <div class="imgcontainer" >
   <div class="upload-container">
     <div class="image-upload">
     
     
-      <img src="https://cdn.dribbble.com/users/3020031/screenshots/16371150/media/4955ea9d1ac975a0c89648492d5c36b7.png?resize=400x300&vertical=center"  />
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-male-cameraman-operating-a-video-camera-to-capture-a-film-3d-image_3819350.jpg"  />
     </div>
     <div class="text-content">
+      <h1 style={{color:'white',fontFamily:'fantasy',fontSize:'4rem'}}>Watch latest movies & webshow </h1>
      
     </div>
   </div>
 </div>
+
+<div class="container my-5">
+    <div class="row">
+
+      <div class="col-md-6 d-flex align-items-center">
+        <div>
+          <h2>Write Something Here</h2>
+          <p>
+            This is where you can write something about the image on the right side.
+            You can add more text here to describe the image, provide information, or
+            anything else you need.
+          </p>
+        </div>
+      </div>
+     
+      <div class="col-md-6 d-flex align-items-center">
+        <div class="w-100">
+        <div class="hovercard">
+    <p><span><img src="https://pbs.twimg.com/media/ECkNE-YXUAAgYjg.jpg" alt="" /></span></p>
+    <p><span><img src="https://c4.wallpaperflare.com/wallpaper/560/5/180/bloodborne-the-old-hunters-wallpaper-thumb.jpg" alt="" /></span></p>
+    <p><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHp3OpNi9ssh8loIWYwpu6nMe6ypiTlCkSw&s" alt="" /></span></p>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
