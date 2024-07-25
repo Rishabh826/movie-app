@@ -50,11 +50,9 @@ export default function Start() {
 
       <div class="col-md-6 d-flex align-items-center">
         <div>
-          <h2>Write Something Here</h2>
+          <h2 style={{fontFamily:'fantasy',fontSize:'4rem'}}>Your Ultimate Movie Discovery Hub</h2>
           <p>
-            This is where you can write something about the image on the right side.
-            You can add more text here to describe the image, provide information, or
-            anything else you need.
+          "Discover new films, track your favorites, and connect with fellow movie enthusiasts. Dive into the world of cinema with detailed movie information, trailers, and reviews. Join MovieHub today for an unparalleled movie-watching experience!"
           </p>
         </div>
       </div>

@@ -6,7 +6,8 @@ const Navbar = () => {
 
   const navstyle = {
     backgroundColor: location.pathname === '/' ? 'black' : 'orangered',
-    color: 'white'
+    color: 'white',
+    positon:'sticky'
   };
 
   const user = localStorage.getItem('user');
@@ -18,9 +19,9 @@ const Navbar = () => {
 
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={navstyle}>
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top" style={navstyle}>
       <div className="container-fluid" style={{color:'white'}}>
-        <Link className="navbar-brand" to="/"> <strong  style={{color:'white'}}>Movie</strong></Link>
+        <Link className="navbar-brand" to="/"> <strong  style={{color:'white'}}>MovieHub</strong></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +40,7 @@ const Navbar = () => {
             </>
           ) : (
             <>
-              <Link className="nav-link" to="/login">Login</Link>
+              <Link className="btn btn-outline-danger" to="/login">Login</Link>
             
             </>
           )}
