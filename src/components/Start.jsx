@@ -28,7 +28,7 @@ export default function Start() {
 
    <div>
    <img src="https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg"  />
-   <img src="https://as2.ftcdn.net/v2/jpg/03/27/89/21/1000_F_327892164_bVbtSUgzGYnSiApo6NMmR8LdT7XZvcwM.jpg"  style={{marginTop:'2rem'}} />
+   <img src="https://as2.ftcdn.net/v2/jpg/03/27/89/21/1000_F_327892164_bVbtSUgzGYnSiApo6NMmR8LdT7XZvcwM.jpg" alt="loading" style={{marginTop:'2rem'}} />
    </div>
 
       <div class="imgcontainer" >
@@ -36,7 +36,7 @@ export default function Start() {
     <div class="image-upload">
     
     
-      <img src="https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-male-cameraman-operating-a-video-camera-to-capture-a-film-3d-image_3819350.jpg"  />
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-male-cameraman-operating-a-video-camera-to-capture-a-film-3d-image_3819350.jpg"  alt="loading" />
     </div>
     <div class="text-content">
       <h1 style={{color:'white',fontFamily:'fantasy',fontSize:'4rem'}}>Watch latest movies & webshow </h1>
@@ -60,9 +60,9 @@ export default function Start() {
       <div class="col-md-6 d-flex align-items-center">
         <div class="w-100">
         <div class="hovercard">
-    <p><span><img src="https://pbs.twimg.com/media/ECkNE-YXUAAgYjg.jpg" alt="" /></span></p>
-    <p><span><img src="https://c4.wallpaperflare.com/wallpaper/560/5/180/bloodborne-the-old-hunters-wallpaper-thumb.jpg" alt="" /></span></p>
-    <p><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHp3OpNi9ssh8loIWYwpu6nMe6ypiTlCkSw&s" alt="" /></span></p>
+    <p><span><img src="https://pbs.twimg.com/media/ECkNE-YXUAAgYjg.jpg" alt="loading" /></span></p>
+    <p><span><img src="https://c4.wallpaperflare.com/wallpaper/560/5/180/bloodborne-the-old-hunters-wallpaper-thumb.jpg" alt="loading" /></span></p>
+    <p><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHp3OpNi9ssh8loIWYwpu6nMe6ypiTlCkSw&s" alt="loading" /></span></p>
 </div>
         </div>
       </div>
